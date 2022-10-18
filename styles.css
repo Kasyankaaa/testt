@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    background-color: rgba(233, 181, 10, 0.471);
+    color: rgba(3, 39, 4, 0.968);
+    font-size: normal;
+    font-family: 'Press Start 2P', cursive;
+}
+
+a {
+    color: rgba(158, 72, 6, 0.795);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgba(5, 51, 65, 0.849);
+}
+
+a:visited {
+    color: gray;
+}
+.avatar {
+    width: 200px;
+    border-radius: 20%;
+    shape-margin: 10px 5px 3px;
+    box-shadow: 10px 0px 0px 6px rgba(56, 56, 56, 0.753);
+
+    /* первый параметр - отступ по икс,
+    второй по игрек
+    потом значение размытия
+    и распространения (типа насколько большая будет тень) */
+
+
+}
+
+.info {
+    display: flex;
+ }
+
+ @media (max-width: 1000px ) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+ }
+
+.info p {
+    color: rgb(64, 33, 9);
+    margin: 0;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    /*letter-spacing: 15px;*/
+/*word-spacing: 15px;*/
+
+}
+
+/* бокс является родительской коробкой для сс, поэтому весь размер сс зависит
+от родительского максимального */
+
+.boxxx {
+   max-width: 100% ;
+   margin: auto; /*подстраивается под размер экрана устройства, 
+   с которого открыт сайт*/
+   padding-top: 30px;
+}
+
+.card {
+    padding: 15px 20px;
+   /* background-color: rgba(165, 42, 42, 0.486);*/
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bgb {
+    background-color: rgba(12, 55, 92, 0.714);
+}
+
+.bgr {
+    background-color: rgba(46, 2, 2, 0.684);
+}
+
+.bgg {
+    background-color: rgba(15, 26, 6, 0.632);
+
+}
+
+.bgy {
+    background-color: rgba(245, 148, 12, 0.737);
+}
+
+.bggg {
+    background-color: rgba(192, 57, 16, 0.793);
+}
+
+.list  {
+   /* list-style-image: url("pngegg (2).png");*/
+   list-style: disc;
+
+}
+
+.list2  {
+    /* list-style-image: url("pngegg (2).png");*/
+    list-style: none;
+ padding: 0;
+ }
+
+.list li {
+    color: rgba(3, 39, 4, 0.968);
+    margin-bottom: 5px;
+    border-bottom: 3px dotted rgba(3, 39, 4, 0.968);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.list2 li {
+    color: rgba(3, 39, 4, 0.968);
+    margin-bottom: 5px;
+    border-bottom: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+ .table {
+    width: 100%;
+
+ }
+ .table td {
+    padding-bottom: 10px;
+    padding-top: 15px;
+ }
+ 
+ /* h2 {
+    text-align: center;
+
+ }*/
+
+ .table th {
+    text-align: left;
+    margin-bottom: 20px;
+ }
+
+ .left {
+    padding: 0px 0px 10px 0px
+}
+
+ .form label {
+    display: block;
+    font-size: large;
+    color: rgba(36, 27, 27, 0.512);
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+ }
+
+ .form input,
+ .form textarea {
+    width: 50%;
+    box-sizing: border-box;
+   border: none;
+   /* border: 4px solid rgba(15, 26, 6, 0.632);*/
+    background: rgba(245, 222, 154, 0.752);
+    border-bottom: 3px solid rgba(36, 27, 27, 0.512);
+    outline: none;
+    font-family: inherit;
+    color: rgb(31, 19, 3);
+ }
+
+ .center {
+    text-align: center;
+ }
+
+ .row {
+    display: flex;
+    margin-bottom: 20px;
+
+ }
+
+ .row > .form {
+    width: 50%;
+    margin-right: 20px;
+    text-align: center;
+ }
+
+ 
+ .text {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    /* margin-top: 50px;*/
+
+ }
+
+ .btnn {
+    color: rgba(23, 23, 25, 0.807);
+    background: transparent;
+    padding: 15px 0px;
+    border: none;
+    margin-right: 0;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: center;
+
+    
+ }
+
+ .btnn:hover {
+    opacity: 0.9;
+ }
+
+ /* position
+
+ .position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+
+ }
+
+ .box {
+    position: fixed;
+    top: 50px
+   left: 0px;
+   right: 50px;
+   bottom: 150px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+} */
+
+
+
+
+/*.ss {
+    background: rgba(155, 4, 9, 0.618);
+    padding: 15px;  внутренние отступы от края блока до контента внутри блока
+    border: 5px solid rgba(15, 26, 6, 0.574) ;  ширина отступов, стиль границы, цвет
+    margin: 15px; отступы от внешних краев блока до других блоков
+
+}
+треугольная скобка значит, что только дети дивы будут применять стили,
+указанные в скабках 
+.box-model > div { 
+    float: left;
+    background-color: rgb(15, 26, 6, 0.574);
+    height: 200px;
+    width: 25%;
+    box-sizing: border-box;
+}  */
+
